@@ -1,0 +1,27 @@
+# Sensitive configuration
+conexion.php
+seed_admin.php
+
+# Optional local env files
+.env
+.env.*
+!.env.example
+
+# SQL dumps / backups
+*.sql
+!scripts/db_migration_liga_pro.sql
+scripts/liga_futbol_pro_full.sql
+scripts/liga_futbol_pro_schema.sql
+backups/
+*.bak
+*.dump
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+.vscode/

@@ -1,0 +1,80 @@
+:root {
+    --brand-dark: #0d1b2a;
+    --brand-mid: #1b263b;
+    --brand-accent: #00a896;
+    --brand-warm: #ffb703;
+    --bg-soft: #f3f6f9;
+}
+
+body {
+    background:
+        radial-gradient(circle at 10% 10%, rgba(0, 168, 150, 0.12), transparent 35%),
+        radial-gradient(circle at 90% 20%, rgba(255, 183, 3, 0.14), transparent 28%),
+        var(--bg-soft);
+    min-height: 100vh;
+    font-family: "Poppins", "Segoe UI", sans-serif;
+}
+
+.navbar {
+    background: linear-gradient(90deg, var(--brand-dark), var(--brand-mid)) !important;
+    box-shadow: 0 6px 18px rgba(13, 27, 42, 0.22);
+}
+
+.navbar-brand {
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+
+.card {
+    border: 0;
+    border-radius: 14px;
+    box-shadow: 0 10px 24px rgba(13, 27, 42, 0.08);
+    overflow: hidden;
+}
+
+.card-header {
+    font-weight: 600;
+}
+
+.btn {
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+.table thead th {
+    border-bottom-width: 1px;
+}
+
+.display-4 {
+    font-weight: 700;
+    color: var(--brand-mid);
+}
+
+.lead {
+    color: #475467;
+}
+
+.panel-kpi .card-title {
+    font-size: 2rem;
+    margin-bottom: 0.25rem;
+}
+
+.badge {
+    border-radius: 999px;
+}
+
+.auth-hero {
+    max-width: 520px;
+    margin: 0 auto;
+}
+
+.card-header {
+    letter-spacing: 0.3px;
+}
+
+@media (max-width: 767px) {
+    .container {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}
